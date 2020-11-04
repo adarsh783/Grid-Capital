@@ -76,7 +76,7 @@ class HeroSplit extends React.Component {
                   Grit Capital is your Personal Digital Finance Advisor, which helps you track and optimize your Personal Finance. We create a plan for you. Follow it, and you will grow your wealth in the long-run.
                   </p>
                   <div className="reveal-from-top" data-reveal-delay="450">
-                    <Button tag="a" color="primary" href="https://cruip.com/" wideMobile>
+                    <Button tag="a" color="primary" href="https://cruip.com/" wideMobile style={{backgroundColor:'#58678C'}}> 
                       SIGN UP
                     </Button>
                   </div>

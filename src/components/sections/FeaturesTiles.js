@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import AutorenewIcon from '@material-ui/icons/Autorenew';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -69,17 +70,10 @@ class FeaturesTiles extends React.Component {
                 <div className="tiles-item-inner">
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16 reveal-from-top" data-reveal-container=".tiles-item">
-                      <Image
-                        src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                        alt="Features tile icon 01"
-                        width={72}
-                        height={72} />
+                     <AutorenewIcon style={{fontSize:'75px'}} />
                     </div>
                   </div>
                   <div className="features-tiles-item-content">
-                    <h4 className="mt-0 mb-8 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="100">
-                      High-Quality Service
-                    </h4>
                     <p className="m-0 text-sm reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="200">
                     360-degree view of all personal finances and portfolio(complete asset base and liabilities). 
                     </p>
@@ -99,9 +93,6 @@ class FeaturesTiles extends React.Component {
                     </div>
                   </div>
                   <div className="features-tiles-item-content">
-                    <h4 className="mt-0 mb-8 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="200">
-                      High-Quality Service
-                    </h4>
                     <p className="m-0 text-sm reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="300">
                     Estimation of current growth rate of net-worth on year-in-year basis, visibility into cashflow.
                     </p>
@@ -121,9 +112,6 @@ class FeaturesTiles extends React.Component {
                     </div>
                   </div>
                   <div className="features-tiles-item-content">
-                    <h4 className="mt-0 mb-8 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="300">
-                      High-Quality Service
-                    </h4>
                     <p className="m-0 text-sm reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="400">
                     Portfolio optimization and rebalancing strategies for optimum growth rate for achieving financial freedom.
                     </p>
@@ -143,9 +131,6 @@ class FeaturesTiles extends React.Component {
                     </div>
                   </div>
                   <div className="features-tiles-item-content">
-                    <h4 className="mt-0 mb-8 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="100">
-                      High-Quality Service
-                    </h4>
                     <p className="m-0 text-sm reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="200">
                     Analysis of mutual funds portfolio using quantitative techniques and simplified visualizations.
                     </p>
@@ -165,9 +150,6 @@ class FeaturesTiles extends React.Component {
                     </div>
                   </div>
                   <div className="features-tiles-item-content">
-                    <h4 className="mt-0 mb-8 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="200">
-                      High-Quality Service
-                    </h4>
                     <p className="m-0 text-sm reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="300">
                     Knowledge dissemination through simplified articles on personal finance.
                     </p>
@@ -187,16 +169,12 @@ class FeaturesTiles extends React.Component {
                     </div>
                   </div>
                   <div className="features-tiles-item-content">
-                    <h4 className="mt-0 mb-8 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="300">
-                      High-Quality Service
-                    </h4>
                     <p className="m-0 text-sm reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="400">
                     Investment advisory, tax advisory, insurance advisory.
                     </p>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>

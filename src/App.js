@@ -12,7 +12,11 @@ import LayoutSignin from './layouts/LayoutSignin';
 import Home from './views/Home';
 import Secondary from './views/Secondary';
 import Login from './views/Login';
+import Blog from './views/Blog';
+import Blogdetail from './views/Blogdetail';
 import Signup from './views/Signup';
+import Roadmap from './components/sections/Roadmap';
+import Faq from './components/sections/Faq';
 
 class App extends React.Component {
 
@@ -38,6 +42,9 @@ class App extends React.Component {
             <AppRoute exact path="/secondary" component={Secondary} layout={LayoutAlternative} />
             <AppRoute exact path="/login" component={Login} layout={LayoutSignin} />
             <AppRoute exact path="/signup" component={Signup} layout={LayoutSignin} />
+            <AppRoute exact path="/faq" component={Faq} layout={LayoutAlternative} />
+            <AppRoute exact path="/blog" component={Blog} layout={LayoutAlternative} />
+            <AppRoute exact path="/blogdetail" component={Blogdetail} layout={LayoutAlternative} />
           </Switch>
         )} />
     );

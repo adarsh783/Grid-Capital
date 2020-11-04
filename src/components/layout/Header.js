@@ -130,6 +130,15 @@ class Header extends React.Component {
                         navPosition && `header-nav-${navPosition}`
                       )}>
                       <li>
+                        <Link to="/blog" onClick={this.closeMenu}>Blog</Link>
+                      </li>
+                    </ul>
+                    <ul className={
+                      classNames(
+                        'list-reset text-xxs',
+                        navPosition && `header-nav-${navPosition}`
+                      )}>
+                      <li>
                         <Link to="/secondary/" onClick={this.closeMenu}>About Us</Link>
                       </li>
                     </ul>
@@ -138,7 +147,7 @@ class Header extends React.Component {
                         className="list-reset header-nav-right"
                       >
                         <li>
-                          <Link to="/signup/" className="button button-dark button-wide-mobile button-sm" onClick={this.closeMenu}>Sign up</Link>
+                          <Link to="/signup/" className="button button-dark button-wide-mobile button-sm" onClick={this.closeMenu} style={{backgroundColor:'#58678C'}}>Sign up</Link>
                         </li>
                       </ul>}
                   </div>

@@ -22,10 +22,10 @@ const FooterNav = ({
           <Link to="/contact/">Contact</Link>
         </li>
         <li>
-          <Link to="/about-us/">About us</Link>
+          <Link to="/secondary">About us</Link>
         </li>
         <li>
-          <Link to="/faqs/">FAQ's</Link>
+          <Link to="/faq">FAQ's</Link>
         </li>
         <li>
           <Link to="/support/">Support</Link>

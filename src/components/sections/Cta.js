@@ -51,7 +51,7 @@ class Cta extends React.Component {
         {...props}
         className={outerClasses}
       >
-        <div className="container" style={{backgroundColor:'#8e79fc'}}>
+        <div className="container" style={{backgroundColor:'#58678C'}}>
           <div
             className={innerClasses}
           >
@@ -65,7 +65,7 @@ class Cta extends React.Component {
                 label="This is a label"
                 formGroup="desktop"
                 labelHidden>
-                <Button color="primary" style={{fontSize:'20px'}}>Go</Button>
+                <Button color="primary" style={{fontSize:'20px',backgroundColor:'#58678C'}}>Go</Button>
               </Input>
               </li>
             </ul>

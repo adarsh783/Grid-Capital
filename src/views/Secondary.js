@@ -6,6 +6,7 @@ import HeroFull from '../components/sections/HeroFull';
 import Team from '../components/sections/Team';
 import GenericSection from '../components/sections/GenericSection';
 import Roadmap from '../components/sections/Roadmap';
+import Faq from '../components/sections/Faq';
 import Cta from '../components/sections/Cta';
 // import some required elements
 import Image from '../components/elements/Image';
@@ -187,34 +188,7 @@ class Secondary extends React.Component {
           </div >
         </GenericSection>
 
-        <GenericSection topDivider className="illustration-section-06">
-          <div className="container-xs">
-            <SectionHeader data={genericSection04Header} className="center-content" />
-            <Accordion>
-              <AccordionItem title="What are you buiding?" active>
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-              </AccordionItem>
-              <AccordionItem title="Do you guarantee returns?">
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-              </AccordionItem>
-              <AccordionItem title="What are your fees?">
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-              </AccordionItem>
-              <AccordionItem title="What if I am unhappy with the service?">
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-              </AccordionItem>
-              <AccordionItem title="Are you registered with any regulator?">
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-              </AccordionItem>
-              <AccordionItem title="How do I get started?">
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-              </AccordionItem>
-              <AccordionItem title="How is my information protected?">
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-              </AccordionItem>
-            </Accordion>
-          </div>
-        </GenericSection>
+       <Faq />
 
         <Roadmap topDivider />
         <Cta topDivider bottomDivider split className="reveal-from-top" />
